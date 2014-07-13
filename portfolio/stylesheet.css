@@ -1,0 +1,128 @@
+/* Ficheiro CSS com a seguinte divisão em subcategorias:
+
+0 - Menu
+ 0.1 - Menulogo
+     0.1.1 -  logo text
+ 0.2 - Menulist
+     0.2.1 - Lista do menu
+	 0.2.1.1 - Links do menus
+	 0.2.1.2 - Links menus ( hover )
+1 - About
+ 1.1 - Profile
+     1.1.1 - Profile foto
+2 - Gallery
+3 - Projects
+4 - Portfolio
+5 - Contacts
+
+*/
+
+/* tipos de letra importada */
+@import url(http://fonts.googleapis.com/css?family=Monoton); /* Tipo de letra do logo: font-family: 'Monoton', cursive; font-weight: 400; */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300); /*  tipo de letra: font-family: 'Open Sans Condensed', sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800); /* Tipo de letra: font-family: 'Raleway', sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Ruthie); /* Tipo de letra assinatura: font-family: 'Ruthie', cursive; */
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+
+/* 0 - Menu */
+
+ .menu{
+ 	margin-top: -70px;
+
+ }
+  /* 0.1 - Logo */
+     .menulogo {
+     	border: none;
+     	width: 300px;
+        height: 75px;
+     	outline: none;
+     	background-color: white;
+     	position: relative;
+     	 top: 50px;
+     }
+      /* 0.1.1 - Logo text */
+         .menulogo h1 {
+		    
+         	padding-left: 15px;
+			padding-right: 15px;
+            font-family: 'Monoton', "cursive";
+            font-weight: 400;
+            font-size: 50px;
+            position: relative;
+             top: -20px;
+			
+         	
+         }
+		 
+		 .menulogo p {
+		 font-family: 'Ruthie', cursive;
+		 text-align: right;
+         font-size: 10px;
+		 padding-right: 15px;
+         position: relative;
+         top: -60px;
+		 } 
+		 		 
+  /* 0.2 - Menulist */
+     .menulist{
+     	border: 1px solid black;
+     	background-color: white;
+     }
+      /* 0.2.1 - Lista do Menu */
+        .menulist ul {
+        	padding-left: 305px;
+         }
+        .menulist li {
+        	display: inline;
+        	padding-left: 50px;
+         }
+		  /* 0.2.1.1 - Links do Menu */
+		   .menu li a {
+		     color: black;
+			 text-decoration: none;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             padding-left: 35px;
+             padding-right: 35px;
+             /* font-family: 'Cabin Condensed', sans-serif; */
+             font-family: 'Quicksand', sans-serif;
+             font-size: 20px;
+            
+		  
+		     }
+		  /* 0.2.1.2 - Links menus (hover)*/ 
+		   .menu li a:hover {
+		   border: none;
+           background-color: #CFCECE;
+           color: white;
+		   } 
+/* 1 - About */
+
+ .about{
+   border: 1px solid black ;
+   margin-top: 25px; 
+ }
+  /* 1.1 - Profile */
+     .profile {
+        float: left;
+        margin: 15px;
+        border: 1px solid black;
+     }
+      /* 1.1.1 ProfilePhoto */
+         .profilePhoto { 
+            margin-top: 15px;
+            margin-left: 50px;
+         }    
+          /* 1.1.1.1 ProfilePhoto img */
+             .profilePhoto img {
+                height: 240px;
+                width:  240px;
+             }
+
+ /* 1.2 - ProfileInfo */
+     .profileInfo {
+        margin: 15px;
+        border: 1px solid black;
+     }
+
