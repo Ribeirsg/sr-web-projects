@@ -1,0 +1,72 @@
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.jumbotron {
+  background-image:url('https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn2/t1.0-9/529309_183046451849264_815050661_n.jpg');
+  height: 500px;
+  width: 100%
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.projects-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+    
+.projects-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+    }    
+    
+.pro-info p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    }
